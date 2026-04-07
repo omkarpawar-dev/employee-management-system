@@ -180,6 +180,10 @@ def add_employee():
         "employee": employee.to_dict()
     })
 
+@app.route('/')
+def home():
+    return redirect('/login')
+
 
 @app.route('/employees', methods=['GET'])
 def get_employees():
