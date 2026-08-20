@@ -65,6 +65,14 @@ public class Employee {
             return salary;
         }
 
+        public void display(){
+            System.out.println("Employee Id: "+employeeId);
+            System.out.println("Name: "+name);
+            System.out.println("Age: "+age);
+            System.out.println("Email: "+email);
+            System.out.println("Department: "+department);
+            System.out.println("Salary: "+salary);
+        }
 }
 
 
