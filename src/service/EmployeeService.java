@@ -25,6 +25,7 @@ public class EmployeeService {
         else {
             for (Employee emp : employees) { //bascially we say for every obj of class Employee from employees arrayList do the following
                 emp.display();
+                System.out.println("************************************");
             }
         }
     }
